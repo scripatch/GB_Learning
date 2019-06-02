@@ -1,0 +1,114 @@
+body {
+    background-color: #f8f8f8;
+    width: 800px;
+}
+
+a {
+    text-decoration-line: none;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4444ff;
+}
+.menu li a:hover {
+    color: #ff4444;
+}
+
+.menu li a:active {
+    color: green;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    background-color: #eaeaea;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descr {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.details {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specs {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.specs li {
+    background-image: url("../img/dot.jpg");
+    background-repeat: no-repeat;
+    line-height: 32px;
+    padding-left: 40px;
+    color: #7548E9;
+}
+
+input[name="UserName"] {
+    height: 24px;
+    width: 200px;
+    font-style: italic;
+}
+
+textarea {
+    font-size: 24px;
+    color: #7548E9;
+    text-decoration-line: underline;
+}
+
+.goods-photo {
+    background-color: #7548E9;
+    padding: 4px;
+    width: 45px;
+}
+.goods-photo:hover {
+    background-color: #f8f8f8;
+}
+
+img[alt="logo"] {
+    width:300px;
+}
+
+.email:focus {
+    color: red;
+    background-color: mistyrose;
+}
+
+input[type="text"] {
+    text-transform: capitalize;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+p::first-letter {
+    font-size: 20px;
+    color: red;
+}
+table tr:first-child {
+    height: 40px;
+}
