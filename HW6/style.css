@@ -484,5 +484,46 @@ body {
 }
 
 .copy_text {
-    margin-top: 0px;    
+    margin-top: 0px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.email {
+    margin-top: 26px;
+    display: flex;
+}
+
+.email_text {
+    width: 288px;
+    height: 46px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    border-right: none;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.email_text:placeholder {
+    font-family: 'Montserrat';
+}
+
+.email_btn {
+    background-image: url(img/send.png);
+    background-repeat: no-repeat;
+    background-position: 12px 16px;
+    height: 48px;
+    width: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    border-left: none;
+
 }
