@@ -555,3 +555,78 @@ body {
     justify-content: center;
 }
 
+.address {
+    margin: 70px 98px 120px;
+}
+
+.address_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.address_item {
+    width: 370px;
+    height: 320px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px
+}
+
+.address_title {
+    margin-top: 34px;
+    margin-bottom: 23px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.address_text {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.address_highlight {
+    color: #212121;
+}
+
+.address_light {
+    font-weight: 300;
+}
+
+.catalog_menu {
+    margin-top: 30px;
+    background-color: #f4f4f4;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.catalog_menulist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.catalog_menulink {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.catalog_menulink:hover {
+    color: #212121;
+}
